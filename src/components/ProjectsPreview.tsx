@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const ProjectsPreview = () => {
   return (
-    <section id="projects" className="py-20 bg-white dark:bg-gray-900">
+    <section id="projects" className="py-20 bg-[#ededed] dark:bg-gray-900">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold mb-4">
           <span className="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent">

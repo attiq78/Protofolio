@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="py-20 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-900 dark:to-gray-800"
+      className="py-20 bg-[#F5F5F5] dark:bg-gradient-to-br dark:from-gray-900 dark:to-gray-800"
     >
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 bg-clip-text text-transparent">

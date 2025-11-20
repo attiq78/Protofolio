@@ -2,7 +2,7 @@ const Resume = () => {
   return (
     <section
       id="resume"
-      className="py-20 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-900 dark:to-gray-800"
+      className="py-20 bg-[#F5F5F5] dark:bg-gradient-to-br dark:from-gray-900 dark:to-gray-800"
     >
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold mb-4">
@@ -10,7 +10,7 @@ const Resume = () => {
           My Resume
           </span>
         </h2>
-        <p className="text-gray-300 dark:text-white max-w-2xl mx-auto mb-10">
+        <p className="text-black dark:text-white max-w-2xl mx-auto mb-10">
           Download my resume to explore my experience, education, and the skills I bring to every
           project.
         </p>
