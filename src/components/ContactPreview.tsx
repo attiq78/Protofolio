@@ -47,7 +47,7 @@ const ContactPreview = () => {
           Connect With Me
           </span>
         </h2>
-        <p className="text-gray-300 dark:text-white max-w-2xl mx-auto mb-10">
+        <p className="text-black dark:text-white max-w-2xl mx-auto mb-10">
           Find me on these platforms and let's get in touch
         </p>
         <div className="flex flex-wrap justify-center gap-4 max-w-2xl mx-auto">
@@ -57,7 +57,7 @@ const ContactPreview = () => {
               href={platform.url}
               target={platform.url.startsWith('mailto:') ? undefined : '_blank'}
               rel={platform.url.startsWith('mailto:') ? undefined : 'noopener noreferrer'}
-              className="flex items-center gap-3 px-6 py-4 rounded-xl bg-gray-800/50 hover:bg-gray-800/70 transition-colors border border-gray-700/50"
+              className="flex items-center gap-3 px-6 py-4 rounded-xl bg-gray-600 hover:bg-gray-800/70 transition-colors border border-gray-700/50"
             >
               <div className="w-10 h-10 rounded-full bg-purple-700/20 flex items-center justify-center text-white">
                 {renderIcon(platform.name)}
@@ -69,7 +69,7 @@ const ContactPreview = () => {
         <div className="mt-10">
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-900 font-semibold transition-colors"
+            className="inline-flex items-center gap-2 text-purple-700 hover:text-purple-900 font-semibold transition-colors"
           >
             Send me a message
             <svg
